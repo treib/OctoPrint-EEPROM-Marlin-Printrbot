@@ -33,7 +33,7 @@ $(function() {
         self.eepromData = ko.observableArray([]);
 
         self.onStartup = function() {
-            $('#settings_plugin_eeprom_marlin_link a').on('show', function(e) {
+            $('#settings_plugin_eeprom_marlin_printrbot_link a').on('show', function(e) {
                 if (self.isConnected() && !self.isMarlinFirmware())
                     self._requestFirmwareInfo();
             });
@@ -417,6 +417,6 @@ $(function() {
     OCTOPRINT_VIEWMODELS.push([
         EepromMarlinViewModel,
         ["controlViewModel", "connectionViewModel"],
-        "#settings_plugin_eeprom_marlin"
+        "#settings_plugin_eeprom_marlin_printrbot"
     ]);
 });
