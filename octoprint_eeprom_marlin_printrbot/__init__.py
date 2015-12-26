@@ -26,21 +26,21 @@ class Eeprom_marlinPlugin(octoprint.plugin.AssetPlugin,
     def get_update_information(self):
         return dict(
             systemcommandeditor=dict(
-                displayName="EEPROM Marlin Editor Plugin",
+                displayName="EEPROM Printrbot variation of Marlin Editor Plugin",
                 displayVersion=self._plugin_version,
 
                 # version check: github repository
                 type="github_release",
-                user="amsbr",
-                repo="OctoPrint-EEPROM-Marlin",
+                user="ryanneufeld",
+                repo="OctoPrint-EEPROM-Marlin-Printrbot",
                 current=self._plugin_version,
 
                 # update method: pip
-                pip="https://github.com/amsbr/OctoPrint-EEPROM-Marlin/archive/{target_version}.zip"
+                pip="https://github.com/ryanneufeld/OctoPrint-EEPROM-Marlin-Printrbot/archive/{target_version}.zip"
             )
         )
 
-__plugin_name__ = "EEPROM Marlin Editor Plugin"
+__plugin_name__ = "EEPROM Printrbot variation of Marlin Editor Plugin"
 
 def __plugin_load__():
     global __plugin_implementation__
