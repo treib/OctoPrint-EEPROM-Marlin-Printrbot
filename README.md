@@ -1,10 +1,10 @@
-# OctoPrint-EEprom-Marlin
+# OctoPrint-EEprom-Marlin-Printrbot
 
-This plugin is designed to get, change and save the values in the Eeprom of your Marlin Firmware based Machine.
+This plugin is designed to get, change and save the values in the Eeprom of your Printrbot variation of Marlin Firmware based Machine.
 
 ## Setup
 
 Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager)
 or manually using this URL:
 
-    https://github.com/amsbr/OctoPrint-EEPROM-Marlin/archive/master.zip
+    https://github.com/ryanneufeld/OctoPrint-EEPROM-Marlin-Printrbot/archive/master.zip

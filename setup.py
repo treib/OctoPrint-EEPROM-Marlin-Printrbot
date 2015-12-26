@@ -4,30 +4,30 @@
 ### Do not forget to adjust the following variables to your own plugin.
 
 # The plugin's identifier, has to be unique
-plugin_identifier = "eeprom_marlin"
+plugin_identifier = "eeprom_marlin_printrbot"
 
 # The plugin's python package, should be "octoprint_<plugin identifier>", has to be unique
-plugin_package = "octoprint_eeprom_marlin"
+plugin_package = "octoprint_eeprom_marlin_printrbot"
 
 # The plugin's human readable name. Can be overwritten within OctoPrint's internal data via __plugin_name__ in the
 # plugin module
-plugin_name = "OctoPrint-EEprom-Marlin"
+plugin_name = "OctoPrint-EEprom-Marlin-Printrbot"
 
 # The plugin's version. Can be overwritten within OctoPrint's internal data via __plugin_version__ in the plugin module
 plugin_version = "0.1.0"
 
 # The plugin's description. Can be overwritten within OctoPrint's internal data via __plugin_description__ in the plugin
 # module
-plugin_description = """Makes it possible to change the EEprom values of Marlin Firmware through OctoPrint based on OctoPrint-EEprom-Repetir by Salandora"""
+plugin_description = """Makes it possible to change the EEprom values of the Printrbot variation of Marlin Firmware through OctoPrint based on OctoPrint-EEprom-Marlin by Anderson Silva"""
 
 # The plugin's author. Can be overwritten within OctoPrint's internal data via __plugin_author__ in the plugin module
-plugin_author = "Anderson Silva"
+plugin_author = "Ryan Neufeld"
 
 # The plugin's author's mail address.
-plugin_author_email = "ams.bra@gmail.com"
+plugin_author_email = "ryan@neucode.org"
 
 # The plugin's homepage URL. Can be overwritten within OctoPrint's internal data via __plugin_url__ in the plugin module
-plugin_url = "https://github.com/amsbr/OctoPrint-EEprom-Marlin"
+plugin_url = "https://github.com/ryanneufeld/OctoPrint-EEPROM-Marlin-Printrbot"
 
 # The plugin's license. Can be overwritten within OctoPrint's internal data via __plugin_license__ in the plugin module
 plugin_license = "AGPLv3"
